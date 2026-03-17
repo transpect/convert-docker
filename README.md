@@ -1,7 +1,7 @@
 # convert-docker
 
 This repo provides minimal hello world example that shows how 
-to setup a container with the convert API. 
+to setup a container with the [convert](https://github.com/transpect/convert) API. 
 
 ## 1 Architecture
 
