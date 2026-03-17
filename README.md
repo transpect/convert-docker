@@ -5,20 +5,22 @@ to setup a container with the [convert](https://github.com/transpect/convert) AP
 
 ## 1 Installation
 
-### 1.1 This Repository
-
-```
-build/                  # Docker configuration
-converter/              # Put your converters here
-  |--hello/             # Hello world example
-webapp-convert/         # The convert code
-```
+### 1.1 Clone the Repository
 
 This repo contains submodules. You need to clone it with
 the `--recursive` parameter:
 
 ```
 $ git clone --recursive https://github.com/transpect/convert-docker.git
+```
+
+Below is a brief overview of the main contents of this repository:
+
+```
+build/                  # Docker configuration
+converter/              # Put your converters here
+  |--hello/             # Hello world example
+webapp-convert/         # The convert code
 ```
 
 ### 1.2 Build the Image
