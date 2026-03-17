@@ -28,7 +28,7 @@ webapp-convert/         # The convert code
 Please see the commented Dockerfile in `build/Dockerfile`. 
 
 ```
-$ docker build -t letex/convert:latest . 
+$ docker build -f build/Dockerfile -t letex/convert:latest .
 ```
 
 ### 1.3 Start the Container from the Image
