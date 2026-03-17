@@ -15,6 +15,13 @@ to setup a container with the convert API.
   |--webapp-convert         # The convert code
 ```
 
+This repo contains submodules. You need to clone it with
+the `--recursive` parameter:
+
+```
+$ git clone --recursive https://github.com/transpect/convert-docker.git
+```
+
 ### 1.2 Container Layout
 
 This directory structure of the Docker container is shown 
