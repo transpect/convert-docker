@@ -1,0 +1,6 @@
+[submodule "webapp-convert"]
+	path = webapp-convert
+	url = git@github.com:transpect/convert.git
+[submodule "converter/hello/calabash"]
+	path = converter/hello/calabash
+	url = https://github.com/transpect/calabash-frontend
