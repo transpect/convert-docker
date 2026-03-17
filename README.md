@@ -10,7 +10,7 @@ to setup a container with the [convert](https://github.com/transpect/convert) AP
 ```
 build/                  # Docker configuration
 converter/              # Put your converters here
-  |--hello/               # Hello world example
+  |--hello/             # Hello world example
 webapp-convert/         # The convert code
 ```
 
