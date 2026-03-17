@@ -103,7 +103,7 @@ this is the location you need to inspect.
   |  |  |--data/             # the uploaded data
   |  |  |  |--test.xml/      # each file is converted in its own directory
   |  |  |  |  |--in/         # input directory, contains the uploaded file
-  |  |  |  |  |--out/        # input directory, includes the results
+  |  |  |  |  |--out/        # output directory, includes the results
 ```
 
 The `in` directory contains only the original input file, while the `out` directory usually includes 
