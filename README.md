@@ -84,7 +84,7 @@ with the difference that the entire converter is placed within the user director
 If you experience any issue with your converter, you may just login to the container:
 
 ```
-$ docker run -d -p 8080:8080 --name hello letex/hello:latest
+$ docker exec -it convert /bin/bash
 ```
 
 ## 3.2 Container Directory Layout
