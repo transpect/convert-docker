@@ -35,7 +35,7 @@ RUN curl -fSL "https://files.basex.org/releases/${BASEX_VERSION}/${BASEX_FILE}.z
 
 RUN mkdir -p /home/${USER}/convert/data /home/${USER}/convert/converter
   
-# ── copy webapp
+# ── copy webapp and converter directory
 
 COPY webapp-convert /home/${USER}/basex/webapp/convert
     
