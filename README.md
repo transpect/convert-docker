@@ -25,7 +25,7 @@ in the data dir.
 ```
 /home/
   |--letex/
-  |--basex/
+  |  |--basex/
   |  |--convert/ 
   |  |  |--converter
   |  |  |  |--hello/
@@ -36,6 +36,8 @@ in the data dir.
   |  |  |  |  |  |--in/
   |  |  |  |  |  |--out/
 ```
+
+### 1.3 Add new converters
 
 New converters should be added to the `converter` directory (see 
 section 1.1). During the Docker build process, they are 
@@ -98,10 +100,10 @@ with the difference that the entire converter is placed within the user director
 ```
 /home/
   |--letex/
+  |  |--basex/          # the BaseX application
   |  |--convert/ 
-  |  |  |--basex/       => the BaseX application
-  |  |  |--converter/   => the installed converters
-  |  |  |--data/        => the uploaded data
+  |  |  |--converter/   # the installed converters
+  |  |  |--data/        # the uploaded data
 ```
 
 If you want to debug a conversion, you should typically check the data directory in the container 
