@@ -11,7 +11,7 @@ This repo contains submodules. You need to clone it with
 the `--recursive` parameter:
 
 ```
-$ git clone --recursive https://github.com/transpect/convert-docker.git
+git clone --recursive https://github.com/transpect/convert-docker.git
 ```
 
 Below is a brief overview of the main contents of this repository:
